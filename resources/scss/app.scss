@@ -1,1 +1,11 @@
-@import '~bootstrap/scss/bootstrap'
+@use "./partials/variables" as *;
+@use "./partials/mixins" as *;
+
+@import "~bootstrap/scss/bootstrap";
+
+// debug
+.debug {
+    background-color: rgba(255, 0, 0, 0.3);
+    border: 1px dashed red;
+    color: red;
+}
